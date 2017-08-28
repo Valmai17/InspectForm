@@ -1,0 +1,194 @@
+body{background: #f7f7f7 !important;}
+/*------------------------ 会员中心logo ---------------------------------*/
+#menber_logo{width: 100%;background: #3995db;height: 86px;}
+#menber_logo .logo_box{width: 1180px;margin: auto;height: 86px;position: relative;z-index: 2;}
+#menber_logo .logo_box .logo{width: 244px;height: 86px;}
+#menber_logo .logo_box .logo a{display: block;width: 244px;height: 86px;background: url(../../images/menber_v2/menber_center_01.png) 0 25px no-repeat;}
+#menber_logo .logo_box .title{padding-top: 22px;}
+#menber_logo .logo_box .title a{display:block;font-size: 26px;color: #fff;border: 1px solid #8bc1ea;border-radius: 5px;width: 149px;height: 40px;line-height: 38px;text-align: center;} 
+#menber_logo .logo_box .search{margin-top: 23px;width:398px;height: 40px;background: #75b5e6;border-radius:5px;}
+#menber_logo .logo_box .search .mold{width: 99px;border-right: 1px solid #3995db;height: 40px;line-height: 40px; text-align: center;color:#fff;font-size: 14px;}
+#menber_logo .logo_box .more_mold{display:none;position: absolute;left:782px;top:63px;z-index: 3;border:1px solid #3995db;background: #fff;width: 98px;}
+#menber_logo .logo_box .more_mold_on{display: block;}
+#menber_logo .logo_box .more_mold p{line-height: 40px;font-size: 14px;color: #333;text-align: center;cursor: pointer;}
+#menber_logo .logo_box .more_mold p:hover{color: #fff;background:#3995db; }
+
+#menber_logo  .logo_box .search .current_mold i{padding-left:15px;background: url(../../images/menber_v2/menber_center_icon.png) 5px -397px no-repeat;}
+#menber_logo  .logo_box .search .down input{border:none;height: 39px;line-height: 38px;width: 230px;*width:100px;background:#75b5e6;padding:0 0 0 18px;font-size: 14px;color: #333;}
+#menber_logo  .logo_box .search .down input::-webkit-input-placeholder{color:#c4dff4;}
+#menber_logo  .logo_box .search .down input:-moz-placeholder{color:#c4dff4;}
+#menber_logo  .logo_box .search .down input::-moz-placeholder{color:#c4dff4;}
+#menber_logo  .logo_box .search .down input:-ms-placeholder{color:#c4dff4;}
+#menber_logo  .logo_box .search .down button{border:none;height: 39px;line-height: 39px;width: 45px;background: #75b5e6 url(../../images/menber_v2/menber_center_icon.png) 10px -542px no-repeat;}
+#menber_logo  .logo_box .search:hover{background: #fff;transition:all 0.3s ease-out 0s; -moz-transition:all 0.3s ease-out 0s;-webkit-transition:all 0.3s ease-out 0s;-o-transition:all 0.3s ease-out 0s;}
+#menber_logo  .logo_box .search:hover .mold{color:#333;transition:all 0.3s ease-out 0s; -moz-transition:all 0.3s ease-out 0s;-webkit-transition:all 0.3s ease-out 0s;-o-transition:all 0.3s ease-out 0s;}
+#menber_logo  .logo_box .search:hover .current_mold i{background: url(../../images/menber_v2/menber_center_icon.png) 5px -645px no-repeat;}
+#menber_logo  .logo_box .search:hover .down input{background: #fff;transition:all 0.3s ease-out 0s; -moz-transition:all 0.3s ease-out 0s;-webkit-transition:all 0.3s ease-out 0s;-o-transition:all 0.3s ease-out 0s;}
+#menber_logo  .logo_box .search:hover .down input::-webkit-input-placeholder{color:#999;transition:all 0.3s ease-out 0s; -moz-transition:all 0.3s ease-out 0s;-webkit-transition:all 0.3s ease-out 0s;-o-transition:all 0.3s ease-out 0s;}
+#menber_logo  .logo_box .search:hover .down input:-moz-placeholder{color:#999;transition:all 0.3s ease-out 0s; -moz-transition:all 0.3s ease-out 0s;-webkit-transition:all 0.3s ease-out 0s;-o-transition:all 0.3s ease-out 0s;}
+#menber_logo  .logo_box .search:hover .down input::-moz-placeholder{color:#999;transition:all 0.3s ease-out 0s; -moz-transition:all 0.3s ease-out 0s;-webkit-transition:all 0.3s ease-out 0s;-o-transition:all 0.3s ease-out 0s;}
+#menber_logo  .logo_box .search:hover .down input:-ms-placeholder{color:#999;transition:all 0.3s ease-out 0s; -moz-transition:all 0.3s ease-out 0s;-webkit-transition:all 0.3s ease-out 0s;-o-transition:all 0.3s ease-out 0s;}
+#menber_logo  .logo_box .search:hover .down button{background: #fff url(../../images/menber_v2/menber_center_icon.png) 10px -592px no-repeat;transition:all 0.3s ease-out 0s; -moz-transition:all 0.3s ease-out 0s;-webkit-transition:all 0.3s ease-out 0s;-o-transition:all 0.3s ease-out 0s;}
+
+/*------------------------ 会员中心 内容区 ---------------------------------*/
+#container{width: 1180px;margin: auto;padding:20px 0;}
+/*------------------------ 会员中心 内容区-左列表 ---------------------------------*/
+#container .col_left{width: 218px;border:1px solid #e6e6e6;background: #fff;border-top:none;}
+#container .col_left ul{border-bottom:1px solid #e6e6e6;margin-bottom: 50px;}
+#container .col_left dl dt{border-top:1px solid #e6e6e6;height: 50px;line-height: 50px;font-size: 16px;color: #000;cursor: pointer;/*background: url(../../images/menber_v2/menber_center_icon.png) 190px -478px no-repeat;*/}
+#container .col_left dl dt .icon{display:block;float:left;width:38px;height:50px;background: url(../../images/menber_v2/menber_center_icon.png) 12px 15px no-repeat;}
+#container .col_left dl dt .icon02{background-position: 12px -33px;}
+#container .col_left dl dt .icon03{background-position: 12px -84px;}
+#container .col_left dl dt .icon04{background-position: 12px -132px;}
+#container .col_left dl dt .icon05{background-position: 12px -183px;}
+#container .col_left dl dt .icon06{background-position: 12px -233px;}
+#container .col_left dl dt .icon07{background-position: 12px -283px;}
+#container .col_left dl dt .icon08{background-position: 12px -880px;}
+#container .col_left dl .msg{min-width: 6px;display: inline-block;height: 16px;border-radius: 8px;background:#3995db;color: #fff;text-align: center;margin: 15px 0 0 10px;line-height: 15px;padding: 0 5px;}
+#container .col_left dl dt .del{float:right;width:15px;height:15px;background: url(../../images/menber_v2/menber_center_icon.png) 1px -496px no-repeat;margin:18px 20px 0 0;}
+#container .col_left dl dd{display:none;height: 40px;}
+#container .col_left dl dd a{display: block;line-height: 40px;padding-left:38px; font-size: 14px;color: #666; }
+#container .col_left dl dd a:hover{background: #f7f7f7;}
+#container .col_left dl dd a.on{color: #000;background: #f7f7f7;line-height: 38px;border-bottom: 1px solid #fff;border-top: 1px solid #fff;}
+#container .col_left .cur dt{border-bottom:1px solid #e6e6e6;/*background: url(../../images/menber_v2/menber_center_icon.png) 190px -328px no-repeat;*/}
+#container .col_left dl.cur dd{display:block;}
+#container .col_left  dt .del180{
+transform:rotate(180deg);
+-moz-transform:rotate(180deg);
+-webkit-transform:rotate(180deg);
+-o-transform:rotate(180deg);
+transition:all 0.2s ease-out 0s; -moz-transition:all 0.2s ease-out 0s;-webkit-transition:all 0.2s ease-out 0s;-o-transition:all 0.2s ease-out 0s;}
+#container .col_left  dt .del0{
+transform:rotate(0deg);
+-moz-transform:rotate(0deg);
+-webkit-transform:rotate(0deg);
+-o-transform:rotate(0deg);
+transition:all 0.2s ease-out 0s; -moz-transition:all 0.2s ease-out 0s;-webkit-transition:all 0.2s ease-out 0s;-o-transition:all 0.2s ease-out 0s;}
+
+
+/*------------------------ 会员中心 内容区-右边主要内容区 ---------------------------------*/
+#container .col_right{margin-left: 20px;width: 938px;border:1px solid #e6e6e6;background: #fff;}
+#container .col_right .title{height: 60px;padding:0 20px;}
+#container .col_right .title h3{line-height: 60px;font-size: 16px;color: #333;}
+#container .col_right .title p{line-height: 60px;font-size: 12px;color: #999;}
+#container .col_right .title p a{font-size: 12px;color: #999;}
+#container .col_right .title p a:hover{color: #3995db;}
+#container .col_right .main{padding: 10px 20px 40px;border-top:1px solid #e6e6e6;position: relative;z-index: 1;}
+#container .col_right .main .inbox{width: 100%;padding:0 !important;padding-top: 20px !important;;}
+#container .col_right .main .inbox .tab{width: 123px;padding-right:15px;height:36px;line-height:36px;text-align: right;font-size: 14px;color: #333;}
+#container .col_right .main .inbox .content{width:760px;min-height:36px;line-height:36px;font-size: 14px;color: #333;}
+#container .col_right .textbox{border:1px solid #ccc;height: 34px;line-height: 34px;padding: 0 15px;font-size: 14px;color: #333;width: 345px;}
+#container .col_right .textbox:focus{border-color:#3995db;} 
+#container .col_right .a_btn{color: #3995db;padding-left: 10px;}
+#container .col_right .importent{color: #e13535;}
+#container .col_right .white_btn{width: 110px;border:1px solid #ccc;font-size: 14px;color:#333;text-align: center;height: 34px;line-height: 31px;background: none;font-family: "微软雅黑";cursor: pointer;}
+#container .col_right .white_btn:hover{background: #3995db;border-color: #3995db;color: #fff;}
+#container .col_right .white_btn:active{background: #2683ca;border-color: #2683ca;}
+#container .col_right .blue_btn{width: 120px;height: 40px;line-height:38px;border:none;font-size:14px;color: #fff;text-align: center;background: #3995db;font-family: "微软雅黑";cursor: pointer; }
+#container .col_right .blue_btn:hover{background: #2585cf;border-color: #2585cf;}
+#container .col_right .blue_btn:active{background: #217bc1;border-color: #217bc1;}
+#container .col_right .gray_btn{width: 98px;height: 28px;line-height:25px;border:1px solid #ccc;font-size:12px;color: #666;text-align: center;background: #fafafa;font-family: "微软雅黑";cursor: pointer; }
+#container .col_right .gray_btn:hover{background: #f2f2f2;}
+#container .col_right .gray_btn:active{background: #e6e6e6;}
+#container .col_right .small_blue_btn{width:70px;height:30px;border:none;background: #3995db;color: #fff;line-height: 30px;}
+#container .col_right .form_tips{margin-left: 10px;}
+/*成长值*/
+.accountInfo_Growth em{display:inline-block; font-size: 12px;color: #999;padding-left:6px;}
+.accountInfo_Growth i{width: 100px;background: #ccc;display: inline-block;border-radius: 5px;height: 8px;margin-right: 10px;}
+.accountInfo_Growth i strong{border-radius: 5px;height: 8px;background: #3995db;display: inline-block;}
+
+#container .col_right .main .inbox .content .Type{display:inline-block;height: 36px;line-height: 36px;font-size: 14px;color: #666;float: left;}
+#container .col_right .main .inbox .content .Type label{float: left;display: inline;width: auto;padding: 0; margin: 0 27px 0 0;cursor: pointer;}
+#container .col_right .main .inbox .content .Type label input[type='radio']{display: inline-block;width: 31px;text-align: left;cursor: pointer;}
+
+ 
+ 
+/*下拉筛选样式*/
+.sel_box{position:relative;float: left;width:112px;height:36px;margin-right:20px;_margin-right:1px;line-height: 34px;z-index: 1;}
+.sel_box .sel_show{cursor: pointer;width:75px;height:34px;display:block;padding-left:12px;padding-right:23px;border:1px solid #ccc;background: #fff url(../../images/menber_v2/menber_center_icon.png) no-repeat 90px -685px;overflow:hidden;font-size: 14px;color:#333;_display:none;}
+.sel_box .sel_show:hover{border-color: #3995db;}
+.sel_box .sel_show.cur{border-color: #3995db;}
+.sel_box .sel_more{display:none;width: 110px;max-height:300px;overflow: auto; border:1px solid #3995db;position:absolute;top:35px;left:0;cursor: pointer;background: #fff;z-index: 2;}
+.sel_box .sel_more.in{display: block;}
+.sel_box .sel_more p{height: 34px;line-height: 34px;font-size:14px;padding-left: 12px;}
+.sel_box .sel_more p:hover{background:#3995db;color: #fff;}
+.sel_box .sel_more p.on{background:#3995db;color: #fff;}
+
+
+/* 行业弹框*/
+#container .col_right .main .industryBox{display: none; width: 562px;min-height:528px;border:2px solid #3995db;position: absolute;top:50px;left:188px;background: #fff;overflow: hidden;z-index: 2;}
+.industryBox .industry_title{height:38px;line-height: 36px; background: #3995db;font-size: 14px;color: #fff;padding-left: 24px;}
+.industryBox .industry_title .close{background: url(../../images/menber_v2/menber_center_icon.png) no-repeat 10px -740px;display: block;width: 35px;height: 35px;}
+.industryBox .industry_content{padding: 26px;padding-bottom: 10px;}
+.industryBox .industry_content #hyFtype{border:1px solid #ccc;width: 198px;height: 385px;margin-right: 20px;}
+.industryBox .industry_content #hyFtype p{font-size: 12px;color: #333;padding: 0 15px;height: 35px;line-height: 35px;cursor: pointer;background: url(../../images/menber_v2/menber_center_icon.png) no-repeat 179px -822px;}
+.industryBox .industry_content #hyFtype p.on{background-color: #f2f2f2;}
+.industryBox .industry_content #hyFtype p:hover{background-color: #f2f2f2;}
+.industryBox .industry_content #hyStype{width: 288px;height: 385px;border:1px solid #ccc;overflow: auto;}
+.industryBox .industry_content #hyStype p{font-size: 12px;color: #333;padding-left:15px;height: 35px;line-height: 35px;}
+.industryBox .industry_content #hyStype p a{display: block;color: #3995db;float: right;width: 47px;text-align:center;}
+.industryBox .industry_content #hyStype p:hover{background: #f2f2f2;}
+.industryBox .industry_content #hyStype p:hover a{background:#3995db;color: #fff;}
+.industryBox .industry_content #hyStype p a:active{background: #217bc1;border-color: #217bc1;}
+.industryBox .industry_content .selected{width:100%;padding-top: 18px;}
+.industryBox .industry_content .selected h3{height: 60px;line-height: 30px;color: #666;font-size: 12px;width: 37px;}
+.industryBox .industry_content .selected_list{width: 400px;}
+.industryBox .industry_content .selected_list ul li{float: left;}
+.industryBox .industry_content .selected_list ul li a{display:block;font-size: 12px;color:#3995db;border:1px solid #fff;height: 28px;line-height: 28px;cursor: pointer;padding: 0 6px;}
+.industryBox .industry_content .selected_list ul li a span{float:right;width: 18px;height: 25px;}
+.industryBox .industry_content .selected_list ul li a:hover{border-color: #e65d5d;color:#e65d5d; }
+.industryBox .industry_content .selected_list ul li a:hover span{background: url(../../images/menber_v2/menber_center_icon.png) no-repeat 5px -781px;}
+.industryBox .industry_content button{margin-top: 7px;}
+
+
+/* 主营产品*/
+#container .col_right .main .productsBox{display: none; width: 733px;min-height:522px;border:2px solid #3995db;position: absolute;top:50px;left:102px;background: #fff;overflow: hidden;z-index: 2;}
+.productsBox .products_title{height:38px;line-height: 36px; background: #3995db;font-size: 14px;color: #fff;padding-left: 24px;}
+.productsBox .products_title .close{background: url(../../images/menber_v2/menber_center_icon.png) no-repeat 10px -740px;display: block;width: 35px;height: 35px;}
+.manual{padding-left: 26px;}
+.manual h3{height: 53px;line-height: 53px; font-size: 12px;color: #333;}
+.manual .manual_cont input{width: 361px !important;border-right: none !important;}
+.manual .manual_cont p{font-size: 12px;color: #999;height: 36px;line-height: 36px;padding-right: 26px;}
+#container .col_right  .main .productsBox .small_blue_btn{height:36px;width: 50px;}
+#container .col_right .blue_btn:hover{background: #2585cf;border-color: #2585cf;}
+#container .col_right .blue_btn:active{background: #217bc1;border-color: #217bc1;}
+.productsBox .products_content{padding: 26px;padding-bottom: 10px;}
+.productsBox .products_content .productsab{border:1px solid #ccc;width: 188px;height: 280px;margin-right: 20px;}
+.productsBox .products_content .productsab p{font-size: 12px;color: #333;padding: 0 15px;height: 35px;line-height: 35px;cursor: pointer;background: url(../../images/menber_v2/menber_center_icon.png) no-repeat 169px -822px;}
+.productsBox .products_content .productsab p.on{background-color: #f2f2f2;}
+.productsBox .products_content .productsab p:hover{background-color: #f2f2f2;}
+.productsBox .products_content .productsc{width: 259px;height: 280px;border:1px solid #ccc;overflow: auto;}
+.productsBox .products_content .productsc p{font-size: 12px;color: #333;padding-left:15px;height: 35px;line-height: 35px;}
+.productsBox .products_content .productsc p a{display: block;color: #3995db;float: right;width: 47px;text-align:center;}
+.productsBox .products_content .productsc p:hover{background: #f2f2f2;}
+.productsBox .products_content .productsc p:hover a{background:#3995db;color: #fff;}
+.productsBox .products_content .productsc p a:active{background: #217bc1;border-color: #217bc1;}
+.productsBox .products_content .selected{width:100%;padding-top: 18px;}
+.productsBox .products_content .selected h3{height: 60px;line-height: 30px;color: #666;font-size: 12px;width: 37px;}
+.productsBox .products_content .selected_list{width: 545px;}
+.productsBox .products_content .selected_list ul li{float: left;}
+.productsBox .products_content .selected_list ul li a{display:block;font-size: 12px;color:#3995db;border:1px solid #fff;height: 28px;line-height: 28px;cursor: pointer;padding: 0 6px;}
+.productsBox .products_content .selected_list ul li a span{float:right;width: 18px;height: 25px;}
+.productsBox .products_content .selected_list ul li a:hover{border-color: #e65d5d;color:#e65d5d; }
+.productsBox .products_content .selected_list ul li a:hover span{background: url(../../images/menber_v2/menber_center_icon.png) no-repeat 5px -781px;}
+/*.productsBox .products_content .selected_list ul li a:active{background: #217bc1;border-color: #217bc1;}*/
+.productsBox .products_content button{margin-top: 7px;}
+
+
+#container .col_right .main02{padding: 28px 50px;}
+.grayBox{border:1px solid #e6e6e6;background: #f7f7f7;width: 836px;min-height: 78px;}
+
+
+
+/*页码*/
+.col_right .page{margin:20px 0px 20px 0px !important;}
+.col_right .page ul:after{content:"";display:block;clear:both;}
+.col_right .page ul li{ float: left;padding-right: 11px; }
+.col_right .page ul li a{ display: block; height: 23px;width: 23px;line-height: 23px;text-align: center; font-size:10px;border: 1px solid #ccc;}
+.col_right .page ul li a:hover{background: #3995db;color: #fff;}
+.col_right .page_on{background: #3995db;color: #fff;}
+.col_right .page_prev{height: 20px;width: 20px;background: url(../../images/menber_v2/member_page.png) 2px 4px no-repeat;}
+.col_right .page ul li .page_prev:hover{background:#3995db url(../../images/menber_v2/member_page.png) 2px -17px no-repeat;}
+.col_right .page_next{height: 20px;width: 20px;background: url(../../images/menber_v2/member_page.png) -18px 4px no-repeat;}
+.col_right .page ul li .page_next:hover{background:#3995db url(../../images/menber_v2/member_page.png) -18px -17px no-repeat;}
+
