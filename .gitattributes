@@ -20,5 +20,5 @@
 *.PDF	 diff=astextplain
 *.rtf	 diff=astextplain
 *.RTF	 diff=astextplain
-*.css	 diff=javascript
-*.html	 diff=javascript
+*.css	 linguist-language=javascript
+*.html	 linguist-language=javascript
