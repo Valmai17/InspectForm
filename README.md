@@ -27,7 +27,7 @@ html:
 ```
 
 js:
-```html
+```js
 	$(document).ready(function(){
 	    //提交表单
 	        $('.sub').click(function(){
